@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fujifilm - Beranda</title>
+  </head>
+  <body>
+  
+			<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+		  <a class="navbar-brand" href="#"><img src="img/logo.gif" height="50px" weight="90px" /></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto"> 
+			  <li class="nav-item active">
+				<a class="nav-link" js-scroll-trigger href="#beranda">Beranda <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="mydropdown" href="#">Inovasi</a>
+					<div class="dropdown">
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="file:///C:/Users/Lenovo/Downloads/bootstrap/bootstrap-4.4.1-dist/inovasi%20-%20cerita%20kami.html">Cerita Kami</a>
+							<a class="dropdown-item" href="file:///C:/Users/Lenovo/Downloads/bootstrap/bootstrap-4.4.1-dist/inovasi%20-%20pencapaian.html">Pencapaian</a>
+							<a class="dropdown-item" href="#">Inovasi terbuka</a>
+							<a class="dropdown-item" href="#">Teknologi</a>
+						  </div>
+						</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="mydropdown" href="#">Produk</a>
+					<div class="dropdown">
+						  <div class="dropdown-menu" >
+							<h6 align="center" ><b>Produk Konsumen </b></h6>
+								<a class="dropdown-item" href="#">Kamera Digital</a>
+								<a class="dropdown-item" href="#">Perawatan kulit</a>
+								<a class="dropdown-item" href="#">Produk Foto Instan</a><br>
+							<h6 align="center" ><b>Produk Bisnis</b></h6>
+								<a class="dropdown-item" href="#">Sistem Medis</a>
+								<a class="dropdown-item" href="#">Sistem Grafis</a>
+								<a class="dropdown-item" href="#">Produk Cetak Foto</a>
+								<a class="dropdown-item" href="#">Produk Industri</a>
+								<a class="dropdown-item" href="#">Produk Media Perekam</a>
+						  </div>
+						</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="mydropdown" href="#">Dukungan</a>
+					<div class="dropdown">
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<h6 align="center" ><b>Kamera Digital</b></h6>
+								<a class="dropdown-item" href="#">Unduh Driver & Perangkat Lunak</a>
+								<a class="dropdown-item" href="#">Panduan</a>
+								<a class="dropdown-item" href="#">Spesifikasi</a>
+								<a class="dropdown-item" href="#">Kompatibilitas</a>
+								<a class="dropdown-item" href="#">Pertanyaan Umum</a><br>
+							<h6 align="center" ><b>Produk Lain</b></h6>
+								<a class="dropdown-item" href="#">Sistem Foto Instan</a>
+								<a class="dropdown-item" href="#">Produk Proses Foto Akhir</a>
+						  </div>
+						</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="mydropdown" href="#">Berita</a>
+					<div class="dropdown">
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Tahun 2020</a>
+							<a class="dropdown-item" href="#">Tahun 2019</a>
+							<a class="dropdown-item" href="#">Tahun 2018</a>
+							<a class="dropdown-item" href="#">Tahun 2017</a>
+							<a class="dropdown-item" href="#">Arsip</a>
+						  </div>
+						</div>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="mydropdown" href="#">Tentang kami</a>
+					<div class="dropdown">
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="file:///C:/Users/Lenovo/Downloads/bootstrap/bootstrap-4.4.1-dist/tentang%20kami%20-%20profil%20perusahaan.html">Profil Perusahaan</a>
+							<a class="dropdown-item" href="#">Keberlangsungan</a>
+							<a class="dropdown-item" href="#">Penelitian & Pengembangan</a>
+							<a class="dropdown-item" href="#">Sejarah</a>
+							<a class="dropdown-item" href="#">Video Korporasi</a>
+							<a class="dropdown-item" href="#">Karir</a>
+							<a class="dropdown-item" href="#">Fujifilm Sosial Media</a>
+						  </div>
+						</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" Shref="#">Photo Rescue</a>
+			  </li>
+			  </ul>
+			</ul>
+		  </div>
+		</nav>
+		<br><br><br><br><br>
+		
+				<div class="container">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							  <ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							  </ol>
+							  <div class="carousel-inner">
+								<div class="carousel-item active">
+								  <img src="img/slide3.jpg" class="d-block w-100" >
+								</div>
+								<div class="carousel-item">
+								  <img src="img/slide2.png" class="d-block w-100" >
+								</div>
+							  </div>
+							  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							  </a>
+							  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							  </a>
+							</div>
+					</div>
+				</div>
+				
+				<br><br>
+				<div class="container">
+					<div class="card-deck rounded-circle">
+					  <div class="card bg-danger">
+						<img src="img/SG.jpg" class="card-img-top">
+						<div class="card-body">
+						  <h5 class="card-title text-white" align=center >Sistem Grafis</h5>
+						</div>
+					  </div>
+					  <div class="card bg-danger">
+						<img src="img/PI.jpg" class="card-img-top">
+						<div class="card-body">
+						  <h5 class="card-title text-white" align=center>Produk Industri</h5>
+						</div>
+					  </div>
+					  <div class="card bg-danger">
+						<img src="img/SM.jpg" class="card-img-top">
+						<div class="card-body">
+						  <h5 class="card-title text-white" align=center>Sistem Medikal</h5>
+						</div>
+					  </div>
+					</div>
+				</div>
+					<br><br><br><br>
+					
+					
+					<div class="jumbotron jumbotron-fluid">
+					  <div class="container">
+						<h1 class="display-4">Perawatan Kulit</h1>
+						<p class="lead">ASTALIFT ingin mencapai “kecantikan yang photogenic”,<br>
+						dimana kecantikan merupakan pancaran dari dalam <br> dan memberikan Anda memiliki kehadiran yang kuat.</p>
+					  </div>
+					</div>
+					<br>
+					<div class="container">
+					<div class="card-group">
+					  <div class="card bg-danger">
+						<img src="img/cam.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-white">Kamera Digital</h5>
+						  <p class="card-text text-white">Fujifilm merupakan salah satu brand kamera terbaik di dunia. Kamera kami telah mendapat berbagai macam penghargaan dan sangat cocok bagi professional maupun penggemar biasa. Kami yakin salah satu kamera kami akan menarik hati Anda. </p>
+						</div>
+					  </div>
+					  <div class="card bg-danger">
+						<img src="img/it.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-white">Teknologi</h5>
+						  <p class="card-text text-white">Fujifilm menggabungkan keahlian dari berbagai bidang untuk berkontribusi kepada masyarakat dalam banyak cara.</p>
+						</div>
+					  </div>
+					  <div class="card bg-danger">
+						<img src="img/ins.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-white">Instax</h5>
+						  <p class="card-text text-white">Foto dan lihat hasil cetakannya langsung!</p>
+						</div>
+					  </div>
+					</div>
+					<br><br>
+					
+					<div class="card-group">
+					  <div class="card bg-danger">
+						<img src="img/foto.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-white">Produk Cetak Foto</h5>
+						  <p class="card-text text-white">Minilabs digital kami dan solusi foto retail lainnya memberikan hasil cetakan yang indah dengan teknologi yang ramah lingkungan. Image Intelligence™ Fujifilm memastikan foto yang dicetak sama dengan yang Anda harapkan. </p>
+						</div>
+					  </div>
+					  <div class="card bg-danger">
+						<img src="img/fcr.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-white">FCR - Sejak Tahun 1983</h5>
+						  <p class="card-text text-white">Fuji Computed Radiography (FCR), sistem radiografi digital pertama di dunia ini dirilis pada tahun 1983. </p>
+						</div>
+					  </div>
+					  <div class="card bg-danger">
+						<img src="img/media.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title text-white">Media Sosial Fujifilm</h5>
+						  <p class="card-text text-white">Kami mengundang Anda untuk bergabung dalam komunitas Fujifilm pada jaringan sosial favoritmu di wilayah Anda. </p>
+						</div>
+					  </div>
+					</div>
+					</div>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<!-- Footer -->
+					
+					  <!-- Copyright -->
+					  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+						<a href="https://fujifilm.co.id/id/">Fujifilm Indonesia</a>
+					  </div>
+					  <!-- Copyright -->
+
+					</footer>
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
